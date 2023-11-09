@@ -50,3 +50,19 @@ Create separate files for each entity (admin, user, course, purchase).
    Description: Lists all the courses purchased by the user.
    Input: Headers: { 'Authorization': 'Bearer jwt_token_here' }
    Output: { purchasedCourses: [ { id: 1, title: 'course title', description: 'course description', price: 100, imageLink: 'https://linktoimage.com', published: true }, ... ] }
+
+# Use given below syntax to add token in authorization
+# Bearer token
+
+# database credienticals
+# database user
+#user - 1 
+username : parthjadhao
+password : cDbN6A4NWUGPu1Ia
+string : mongodb+srv://parthjadhao:DbN6A4NWUGPu1Ia@cluster0.71nwtlh.mongodb.net/
+
+#user -2 
+username : eren
+password : 8dDLIEWuMHPX8njc
+stirng : mongodb+srv://eren:8dDLIEWuMHPX8njc@cluster0.71nwtlh.mongodb.net/
+
